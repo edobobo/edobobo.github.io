@@ -18,4 +18,8 @@ Hey there, I am Edoardo, a second year PhD student in the [Sapienza Natural Lang
 
 I am interested in Lexical semantics and my current research topics are Word Sense Disambiguation and Natural Language Generation.
 
-If you want to contact me after the 9 p.m. you can find me in Azeroth.
+I completed my Master's degree in Engineering in Computer Science at Sapienza University of Rome, where I worked on Machine Learning applications for Biomedical science.
+
+I love to play padel and videogames, and I am huge fan of World of Warcraft.
+
+If you want to contact me after 9 p.m. you can find me in Azeroth.
