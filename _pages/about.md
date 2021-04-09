@@ -17,6 +17,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
+Hey there, I am Edoardo, a second year PhD student in the [Sapienza Natural Language Processing Group](http://nlp.uniroma1.it/) led by prof. [Roberto Navigli](http://wwwusers.di.uniroma1.it/~navigli/).
+
+I am interested in Lexical semantics and my current research topics are Word Sense Disambiguation and Natural Language Generation.
+
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
