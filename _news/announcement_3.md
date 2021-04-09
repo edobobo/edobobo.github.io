@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2021-03-10
 inline: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Long paper accepted at NAACL 2021: "_ESC: Redesigning WSD with Extractive Sense Comprehension_"
