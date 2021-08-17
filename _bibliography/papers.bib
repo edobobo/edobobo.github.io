@@ -16,7 +16,8 @@
   doi       = {10.24963/ijcai.2021/520},
   url       = {https://doi.org/10.24963/ijcai.2021/520},
   selected  = {true},
-  pdf       = {https://www.ijcai.org/proceedings/2021/0520.pdf}
+  pdf       = {https://www.ijcai.org/proceedings/2021/0520.pdf},
+  abstract  = "Recently, generative approaches have been used effectively to provide definitions of words in their context. However, the opposite, i.e., generating a usage example given one or more words along with their definitions, has not yet been investigated. In this work, we introduce the novel task of Exemplification Modeling (ExMod), along with a sequence-to-sequence architecture and a training procedure for it. Starting from a set of (word, definition) pairs, our approach is capable of automatically generating high-quality sentences which express the requested semantics. As a result, we can drive the creation of sense-tagged data which cover the full range of meanings in any inventory of interest, and their interactions within sentences. Human annotators agree that the sentences generated are as fluent and semantically-coherent with the input definitions as the sentences in manually-annotated corpora. Indeed, when employed as training data for Word Sense Disambiguation, our examples enable the current state of the art to be outperformed, and higher results to be achieved than when using gold-standard datasets only. We release the pretrained model, the dataset and the software at https://github.com/SapienzaNLP/exmod."
 }
 
 
@@ -34,7 +35,8 @@
   doi       = {10.24963/ijcai.2021/539},
   url       = {https://doi.org/10.24963/ijcai.2021/539},
   selected  = {true},
-  pdf       = {https://www.ijcai.org/proceedings/2021/0539.pdf}
+  pdf       = {https://www.ijcai.org/proceedings/2021/0539.pdf},
+  abstract  = "Word Sense Disambiguation (WSD), i.e., the task of assigning senses to words in context, has seen a surge of interest with the advent of neural models and a considerable increase in performance up to 80% F1 in English. However, when considering other languages, the availability of training data is limited, which hampers scaling WSD to many languages. To address this issue, we put forward MultiMirror, a sense projection approach for multilingual WSD based on a novel neural discriminative model for word alignment: given as input a pair of parallel sentences, our model -- trained with a low number of instances -- is capable of jointly aligning, at the same time, all source and target tokens with each other, surpassing its competitors across several language combinations. We demonstrate that projecting senses from English by leveraging the alignments produced by our model leads a simple mBERT-powered classifier to achieve a new state of the art on established WSD datasets in French, German, Italian, Spanish and Japanese. We release our software and all our datasets at https://github.com/SapienzaNLP/multimirror."
 }
 
 
@@ -52,8 +54,9 @@
     url = {https://www.aclweb.org/anthology/2021.naacl-main.371},
     pages = "4661--4672",
     abstract = "Word Sense Disambiguation (WSD) is a historical NLP task aimed at linking words in contexts to discrete sense inventories and it is usually cast as a multi-label classification task. Recently, several neural approaches have employed sense definitions to better represent word meanings. Yet, these approaches do not observe the input sentence and the sense definition candidates all at once, thus potentially reducing the model performance and generalization power. We cope with this issue by reframing WSD as a span extraction problem {---} which we called Extractive Sense Comprehension (ESC) {---} and propose ESCHER, a transformer-based neural architecture for this new formulation. By means of an extensive array of experiments, we show that ESC unleashes the full potential of our model, leading it to outdo all of its competitors and to set a new state of the art on the English WSD task. In the few-shot scenario, ESCHER proves to exploit training data efficiently, attaining the same performance as its closest competitor while relying on almost three times fewer annotations. Furthermore, ESCHER can nimbly combine data annotated with senses from different lexical resources, achieving performances that were previously out of everyone{'}s reach. The model along with data is available at https://github.com/SapienzaNLP/esc.",
+    pdf = {https://www.aclweb.org/anthology/2021.naacl-main.371.pdf},
+    code = {https://github.com/SapienzaNLP/esc},
     selected  = {true},
-    pdf = {https://www.aclweb.org/anthology/2021.naacl-main.371.pdf}
 }
 
 
