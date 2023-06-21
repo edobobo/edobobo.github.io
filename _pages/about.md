@@ -14,12 +14,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hey there, I am Edoardo, a Postdoctoral Research Fellow at the [Sapienza Natural Language Processing Group](http://nlp.uniroma1.it) led by prof. [Roberto Navigli](http://wwwusers.di.uniroma1.it/~navigli).
+Hey there, I am Edoardo, a full-time researcher (RTDA) in the Department of Computer, Control and Management Engineering ([DIAG](https://www.diag.uniroma1.it/en)) at the [Sapienza University of Rome](https://www.uniroma1.it/en).
 
-I am interested in Lexical semantics and my current research topics are Word Sense Disambiguation and Natural Language Generation.
+I work with the [Sapienza NLP group](https://nlp.uniroma1.it) led by professor [Roberto Navigli](https://www.diag.uniroma1.it/navigli), and I am interested in Lexical Semantics tasks such as Entity Linking and Word Sense Disambiguation, but I am also recently working on applications of descrptive modeling to Language Modeling, Semantic Role Labeling, and Machine Translation.
 
-I completed my Master's degree in Engineering in Computer Science at Sapienza University of Rome, where I worked on Machine Learning applications for Biomedical science.
+I received my Ph.D. in Computer Science from Sapienza University of Rome in 2023, with a thesis on "_Descriptive Modeling: Capturing Semantics in Neural Models via Natural Language Descriptions_".
 
 I love to play padel and videogames, and I am huge fan of World of Warcraft.
 
-If you want to contact me after 9 p.m. you can find me in Azeroth.
+I am the proud co-founder of [sunglasses.ai](https://sunglasses-ai.com/).
