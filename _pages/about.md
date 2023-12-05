@@ -21,5 +21,3 @@ I work with the [Sapienza NLP group](https://nlp.uniroma1.it) led by professor [
 I received my Ph.D. in Computer Science from Sapienza University of Rome in 2023, with a thesis on "_Descriptive Modeling: Capturing Semantics in Neural Models via Natural Language Descriptions_".
 
 I love to play padel and videogames, and I am huge fan of World of Warcraft.
-
-I am a proud co-founder of [Sunglasses AI](https://sunglasses-ai.com/).
