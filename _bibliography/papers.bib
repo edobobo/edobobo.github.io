@@ -1,6 +1,95 @@
 ---
 ---
 
+@inproceedings{orlando-etal-2024-relik,
+    abbr = {ACL},
+    title = "{R}e{L}i{K}: Retrieve and {L}in{K}, Fast and Accurate Entity Linking and Relation Extraction on an Academic Budget",
+    author = "Orlando, Riccardo  and
+      Huguet Cabot, Pere-Llu{\'\i}s  and
+      Barba, Edoardo  and
+      Navigli, Roberto",
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
+    booktitle = "Findings of the Association for Computational Linguistics ACL 2024",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand and virtual meeting",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-acl.839",
+    pages = "14114--14132",
+    code = {https://github.com/SapienzaNLP/relik},
+    pdf={https://aclanthology.org/2024.findings-acl.839.pdf},
+    abstract = "Entity Linking (EL) and Relation Extraction (RE) are fundamental tasks in Natural Language Processing, serving as critical components in a wide range of applications. In this paper, we propose ReLiK, a Retriever-Reader architecture for both EL and RE, where, given an input text, the Retriever module undertakes the identification of candidate entities or relations that could potentially appear within the text. Subsequently, the Reader module is tasked to discern the pertinent retrieved entities or relations and establish their alignment with the corresponding textual spans. Notably, we put forward an innovative input representation that incorporates the candidate entities or relations alongside the text, making it possible to link entities or extract relations in a single forward pass and to fully leverage pre-trained language models contextualization capabilities, in contrast with previous Retriever-Reader-based methods, which require a forward pass for each candidate. Our formulation of EL and RE achieves state-of-the-art performance in both in-domain and out-of-domain benchmarks while using academic budget training and with up to 40x inference speed compared to competitors. Finally, we show how our architecture can be used seamlessly for Information Extraction (cIE), i.e. EL + RE, and setting a new state of the art by employing a shared Reader that simultaneously extracts entities and relations.",
+}
+
+@inproceedings{perrella-etal-2024-guardians,
+    abbr = {ACL},
+    title = "Guardians of the Machine Translation Meta-Evaluation: Sentinel Metrics Fall In!",
+    author = "Perrella, Stefano  and
+      Proietti, Lorenzo  and
+      Scir{\`e}, Alessandro  and
+      Barba, Edoardo  and
+      Navigli, Roberto",
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
+    booktitle = "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.acl-long.856",
+    pages = "16216--16244",
+    code = {https://github.com/SapienzaNLP/guardians-mt-eval},
+    pdf={https://aclanthology.org/2024.acl-long.856.pdf},
+    abstract = "Annually, at the Conference of Machine Translation (WMT), the Metrics Shared Task organizers conduct the meta-evaluation of Machine Translation (MT) metrics, ranking them according to their correlation with human judgments. Their results guide researchers toward enhancing the next generation of metrics and MT systems. With the recent introduction of neural metrics, the field has witnessed notable advancements. Nevertheless, the inherent opacity of these metrics has posed substantial challenges to the meta-evaluation process. This work highlights two issues with the meta-evaluation framework currently employed in WMT, and assesses their impact on the metrics rankings. To do this, we introduce the concept of sentinel metrics, which are designed explicitly to scrutinize the meta-evaluation process{'}s accuracy, robustness, and fairness. By employing sentinel metrics, we aim to validate our findings, and shed light on and monitor the potential biases or inconsistencies in the rankings. We discover that the present meta-evaluation framework favors two categories of metrics: i) those explicitly trained to mimic human quality assessments, and ii) continuous metrics. Finally, we raise concerns regarding the evaluation capabilities of state-of-the-art metrics, emphasizing that they might be basing their assessments on spurious correlations found in their training data.",
+}
+
+@inproceedings{martinelli-etal-2024-maverick,
+    abbr = {ACL},
+    title = "Maverick: Efficient and Accurate Coreference Resolution Defying Recent Trends",
+    author = "Martinelli, Giuliano  and
+      Barba, Edoardo  and
+      Navigli, Roberto",
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
+    booktitle = "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.acl-long.722",
+    pages = "13380--13394",
+    code = {https://github.com/SapienzaNLP/maverick-coref},
+    pdf={https://aclanthology.org/2024.acl-long.722.pdf},
+    abstract = "Large autoregressive generative models have emerged as the cornerstone for achieving the highest performance across several Natural Language Processing tasks. However, the urge to attain superior results has, at times, led to the premature replacement of carefully designed task-specific approaches without exhaustive experimentation. The Coreference Resolution task is no exception; all recent state-of-the-art solutions adopt large generative autoregressive models that outperform encoder-based discriminative systems. In this work, we challenge this recent trend by introducing Maverick, a carefully designed {--} yet simple {--} pipeline, which enables running a state-of-the-art Coreference Resolution system within the constraints of an academic budget, outperforming models with up to 13 billion parameters with as few as 500 million parameters. Maverick achieves state-of-the-art performance on the CoNLL-2012 benchmark, training with up to 0.006x the memory resources and obtaining a 170x faster inference compared to previous state-of-the-art systems. We extensively validate the robustness of the Maverick framework with an array of diverse experiments, reporting improvements over prior systems in data-scarce, long-document, and out-of-domain settings. We release our code and models for research purposes at https://github.com/SapienzaNLP/maverick-coref.",
+}
+
+@inproceedings{bejgu-etal-2024-word,
+    abbr = {ACL},
+    title = "Word Sense Linking: Disambiguating Outside the Sandbox",
+    author = "Bejgu, Andrei  and
+      Barba, Edoardo  and
+      Procopio, Luigi  and
+      Fern{\'a}ndez-Castro, Alberte  and
+      Navigli, Roberto",
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
+    booktitle = "Findings of the Association for Computational Linguistics ACL 2024",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand and virtual meeting",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-acl.851",
+    pages = "14332--14347",
+    code = {https://github.com/Babelscape/WSL},
+    pdf={https://aclanthology.org/2024.findings-acl.851.pdf},
+    abstract = "Word Sense Disambiguation (WSD) is the task of associating a word in a given context with its most suitable meaning among a set of possible candidates. While the task has recently witnessed renewed interest, with systems achieving performances above the estimated inter-annotator agreement, at the time of writing it still struggles to find downstream applications. We argue that one of the reasons behind this is the difficulty of applying WSD to plain text. Indeed, in the standard formulation, models work under the assumptions that a) all the spans to disambiguate have already been identified, and b) all the possible candidate senses of each span are provided, both of which are requirements that are far from trivial. In this work, we present a new task called Word Sense Linking (WSL) where, given an input text and a reference sense inventory, systems have to both identify which spans to disambiguate and then link them to their most suitable meaning.We put forward a transformer-based architecture for the task and thoroughly evaluate both its performance and those of state-of-the-art WSD systems scaled to WSL, iteratively relaxing the assumptions of WSD. We hope that our work will foster easier integration of lexical semantics into downstream applications.",
+}
+
 @inproceedings{conia-etal-2024-mosaico,
     abbr = {NAACL},
     title = "{MOSAIC}o: a Multilingual Open-text Semantically Annotated Interlinked Corpus",
