@@ -2,6 +2,7 @@
 ---
 
 @inproceedings{perrella-etal-2024-beyond,
+    abbr = {EMNLP},
     title = "Beyond Correlation: Interpretable Evaluation of Machine Translation Metrics",
     author = "Perrella, Stefano  and
       Proietti, Lorenzo  and
@@ -41,6 +42,7 @@
     publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/2024.findings-acl.839",
     pages = "14114--14132",
+    selected = {true},
     code = {https://github.com/SapienzaNLP/relik},
     pdf={https://aclanthology.org/2024.findings-acl.839.pdf},
     abstract = "Entity Linking (EL) and Relation Extraction (RE) are fundamental tasks in Natural Language Processing, serving as critical components in a wide range of applications. In this paper, we propose ReLiK, a Retriever-Reader architecture for both EL and RE, where, given an input text, the Retriever module undertakes the identification of candidate entities or relations that could potentially appear within the text. Subsequently, the Reader module is tasked to discern the pertinent retrieved entities or relations and establish their alignment with the corresponding textual spans. Notably, we put forward an innovative input representation that incorporates the candidate entities or relations alongside the text, making it possible to link entities or extract relations in a single forward pass and to fully leverage pre-trained language models contextualization capabilities, in contrast with previous Retriever-Reader-based methods, which require a forward pass for each candidate. Our formulation of EL and RE achieves state-of-the-art performance in both in-domain and out-of-domain benchmarks while using academic budget training and with up to 40x inference speed compared to competitors. Finally, we show how our architecture can be used seamlessly for Information Extraction (cIE), i.e. EL + RE, and setting a new state of the art by employing a shared Reader that simultaneously extracts entities and relations.",
@@ -64,6 +66,7 @@
     publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/2024.acl-long.856",
     pages = "16216--16244",
+    selected = {true},
     code = {https://github.com/SapienzaNLP/guardians-mt-eval},
     pdf={https://aclanthology.org/2024.acl-long.856.pdf},
     abstract = "Annually, at the Conference of Machine Translation (WMT), the Metrics Shared Task organizers conduct the meta-evaluation of Machine Translation (MT) metrics, ranking them according to their correlation with human judgments. Their results guide researchers toward enhancing the next generation of metrics and MT systems. With the recent introduction of neural metrics, the field has witnessed notable advancements. Nevertheless, the inherent opacity of these metrics has posed substantial challenges to the meta-evaluation process. This work highlights two issues with the meta-evaluation framework currently employed in WMT, and assesses their impact on the metrics rankings. To do this, we introduce the concept of sentinel metrics, which are designed explicitly to scrutinize the meta-evaluation process{'}s accuracy, robustness, and fairness. By employing sentinel metrics, we aim to validate our findings, and shed light on and monitor the potential biases or inconsistencies in the rankings. We discover that the present meta-evaluation framework favors two categories of metrics: i) those explicitly trained to mimic human quality assessments, and ii) continuous metrics. Finally, we raise concerns regarding the evaluation capabilities of state-of-the-art metrics, emphasizing that they might be basing their assessments on spurious correlations found in their training data.",
@@ -351,7 +354,6 @@ We release our software and model checkpoints at https://anonymized."
   month     = {8},
   note      = {Main Track},
   doi       = {10.24963/ijcai.2021/539},
-  selected  = {true},
   url       = {https://doi.org/10.24963/ijcai.2021/539},
   pdf       = {https://www.ijcai.org/proceedings/2021/0539.pdf},
   abstract  = "Word Sense Disambiguation (WSD), i.e., the task of assigning senses to words in context, has seen a surge of interest with the advent of neural models and a considerable increase in performance up to 80% F1 in English. However, when considering other languages, the availability of training data is limited, which hampers scaling WSD to many languages. To address this issue, we put forward MultiMirror, a sense projection approach for multilingual WSD based on a novel neural discriminative model for word alignment: given as input a pair of parallel sentences, our model -- trained with a low number of instances -- is capable of jointly aligning, at the same time, all source and target tokens with each other, surpassing its competitors across several language combinations. We demonstrate that projecting senses from English by leveraging the alignments produced by our model leads a simple mBERT-powered classifier to achieve a new state of the art on established WSD datasets in French, German, Italian, Spanish and Japanese. We release our software and all our datasets at https://github.com/SapienzaNLP/multimirror."
@@ -374,7 +376,6 @@ We release our software and model checkpoints at https://anonymized."
     abstract = "Word Sense Disambiguation (WSD) is a historical NLP task aimed at linking words in contexts to discrete sense inventories and it is usually cast as a multi-label classification task. Recently, several neural approaches have employed sense definitions to better represent word meanings. Yet, these approaches do not observe the input sentence and the sense definition candidates all at once, thus potentially reducing the model performance and generalization power. We cope with this issue by reframing WSD as a span extraction problem {---} which we called Extractive Sense Comprehension (ESC) {---} and propose ESCHER, a transformer-based neural architecture for this new formulation. By means of an extensive array of experiments, we show that ESC unleashes the full potential of our model, leading it to outdo all of its competitors and to set a new state of the art on the English WSD task. In the few-shot scenario, ESCHER proves to exploit training data efficiently, attaining the same performance as its closest competitor while relying on almost three times fewer annotations. Furthermore, ESCHER can nimbly combine data annotated with senses from different lexical resources, achieving performances that were previously out of everyone{'}s reach. The model along with data is available at https://github.com/SapienzaNLP/esc.",
     pdf = {https://www.aclweb.org/anthology/2021.naacl-main.371.pdf},
     code = {https://github.com/SapienzaNLP/esc},
-    selected  = {true},
 }
 
 
