@@ -18,9 +18,6 @@ Hey there, I am Edoardo, a full-time researcher (RTDA) in the Department of Comp
 
 I work with the [Sapienza NLP group](https://nlp.uniroma1.it) led by professor [Roberto Navigli](https://www.diag.uniroma1.it/navigli), and I am interested in Lexical Semantics tasks such as Entity Linking and Word Sense Disambiguation, but I am also recently working on applications of descrptive modeling to Language Modeling, Semantic Role Labeling, and Machine Translation.
 
-I am the proud co-founder of [Litus AI](https://litus.ai), a startup on Natural
-Language Processing and Speech Processing based in Rome!
-
 I received my Ph.D. in Computer Science from Sapienza University of Rome in 2023, with a thesis on "_Descriptive Modeling: Capturing Semantics in Neural Models via Natural Language Descriptions_".
 
 I love to play padel and videogames, and I am huge fan of World of Warcraft.
